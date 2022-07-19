@@ -1,0 +1,166 @@
+body{
+    border:1px solid grey;
+    border-radius: 10px;
+    width:100%
+}
+header{
+    height:700px;
+    background-color:rgb(19, 18, 18);
+    color:whitesmoke
+}
+nav{
+    padding-top:15px;
+    margin-left:150px
+}
+
+nav a{
+text-decoration: none;
+color:rgb(110, 102, 102);
+padding:10px
+}
+header h1{
+    color:white;
+   margin-top:200px;
+    text-align:center;
+    font-size: 70px;
+}
+ header h3{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    
+}
+button{
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:17px;
+   padding-right:17px;
+    border:none;
+   font-weight:bold;
+   font-size:20px;
+   border-radius:10px
+   
+   
+}
+#buttons{
+    justify-content: center;
+    display:flex;
+
+}
+#btn1{
+    background-color: rgb(218, 216, 216);
+    color:rgb(97, 95, 95);
+    margin:10px;
+    border-radius:10px
+    
+}
+
+#btn2{
+background-color: rgb(221, 32, 32) ;
+color:whitesmoke   ;
+margin:10px;
+border-radius:10px;
+}
+
+#btn3{
+    background-color: rgb(255, 169, 9);
+    color:whitesmoke;
+    margin:10px;
+    border-radius:10px
+}
+
+button i{
+    margin-right:8px;
+}
+
+#quote{
+    background-color:rgb(12, 11, 11);
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:28px;
+    padding:50px;
+    margin-top:60px;
+    margin-bottom:30px;
+    text-align: center;
+}
+#achievements{
+    display:flex;
+justify-content: center;
+}
+ .award{
+     padding:10px;
+border:1px solid grey;
+margin-left:15px;
+border-radius:5px;
+box-shadow:0 0 3px grey
+}
+
+#list{
+    display:flex;
+    justify-content: center;
+}
+
+#a12 hr{
+  display:flex  
+}
+
+#main-content{
+    display:flex;
+    padding:100px;
+    align-items: center;
+}
+ #content1{
+    margin-right:20px;
+    
+}  
+#content1 {
+    font-size:23px
+}
+#awards{
+    display:flex;
+    margin:50px;
+    justify-content:center;
+    font-weight:bold;
+    font-size:40px;
+}
+#awards i{
+    margin-top:5px;
+    margin-right:5px;
+}
+#awards span{
+    border-bottom:1px solid grey;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    width:100%;
+}
+#poems{
+    display:flex;
+    font-weight:bold;
+    font-size:30px;
+    justify-content: center;
+    margin:50px;
+}
+#poems span{
+    border-bottom:1px solid grey;
+    
+    margin-bottom:49px;
+    margin-left:20px;
+    margin-right:20px;
+    width:280px;
+}
+footer{
+    background-color:black;
+    color:white;
+    display:flex;
+    padding:80px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 780px){
+
+#main-content{
+    display:block;
+}
+
+}

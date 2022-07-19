@@ -1,0 +1,28 @@
+.header-content{
+    background-color:rgb(19, 18, 18);
+    color:whitesmoke;
+    margin:0px;
+   
+  
+}
+body{
+    /* width:200% */
+   }
+.introduction{
+    text-align: center;
+    padding: 74px;
+}
+.navBar{
+    padding:20px;
+    padding-left: 40px;
+}
+.navBar a{
+    text-decoration: none;
+color:rgb(110, 102, 102);
+margin:10px;
+}
+.main-content{
+    display:flex;
+    padding:120px;
+    padding-top:50px
+}
